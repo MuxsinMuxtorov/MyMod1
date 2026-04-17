@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "id": "your-mod-id",
-  "version": "1.0.0",
-  "name": "Dupe Mod",
-  "description": "A mod that allows duplication with /dupe_on and /dupe_off.",
-  "authors": ["Your Name"],
+  "id": "example_duper",
+  "version": "2.0.0",
+  "name": "Example Duper Mod",
+  "description": "Advanced client-side duplication mod with anti-cheat evasion.",
+  "authors": ["example"],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/your-mod-id/icon.png",
-  "environment": "*",
+  "icon": "assets/example_duper/icon.png",
+  "environment": "client",
   "entrypoints": {
-    "main": [
-      "com.yourname.duper.DuperMod"
+    "client": [
+      "com.example.duper.ExampleDuperMod"
     ]
   },
   "mixins": [
-    "your-mod-id.mixins.json"
+    "example_duper.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.15.0",
